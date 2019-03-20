@@ -1,10 +1,10 @@
-Npm.depends({'fbgraph': '1.2.0'});
+Npm.depends({'fbgraph': '1.4.4'});
 
 Package.describe({
-	name: "stevezhu:fbgraph",
+	name: "btafel:fbgraph",
 	summary: "Node.js module to access the Facebook graph api.",
-	version: "2.1.0",
-	git: "https://github.com/stevezhu/meteor-fbgraph.git"
+	version: "2.2.0",
+	git: "https://github.com/btafel/meteor-fbgraph.git"
 });
 
 Package.onUse(function(api) {
@@ -18,6 +18,6 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
 	api.use('tinytest');
 	api.use('service-configuration');
-	api.use('stevezhu:fbgraph');
+	api.use('btafel:fbgraph');
 	api.addFiles('tests/fbgraph_test.js');
 });

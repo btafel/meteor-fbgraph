@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/stevezhu/meteor-fbgraph.svg?branch=master)](https://travis-ci.org/stevezhu/meteor-fbgraph)
+[![Build Status](https://travis-ci.org/btafel/meteor-fbgraph.svg?branch=master)](https://travis-ci.org/btafel/meteor-fbgraph)
 
 A meteor wrapper package for [fbgraph](http://criso.github.io/fbgraph/)
 
-Currently using fbgraph v1.2.0
+Currently using fbgraph v1.4.4
 
 ## Usage
 
